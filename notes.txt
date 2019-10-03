@@ -1,0 +1,6 @@
+had to add ",row" to header row in "osm_export.csv" for the csv to be loaded correctly.
+
+change type for "lon" and "lat" column to String (to be able to string cut
+
+switch off "lazy conversion" from csv input to avoid  "There was a data type error: the data type of [B object [[B@d1930e] does not correspond to value meta [String(34)]"
+
